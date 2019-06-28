@@ -1,0 +1,13 @@
+<p>parent works!</p>
+
+
+<span *ngIf = "Check">
+    1111
+<app-child  [message]="Testmessage"></app-child>
+</span>
+<!-- <app-child [message]="test"></app-child> -->
+
+{{  testChildEvent }}
+
+
+<app-child (b)="testChildEvent=$event"></app-child> 
